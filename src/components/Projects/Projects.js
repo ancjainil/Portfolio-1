@@ -36,10 +36,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Aarogram Workspace"
+              description="During my tenure at Aarogram, I made significant contributions in the realms of Software Development and Robotic Process Automation. My technical toolkit included cutting-edge technologies such as React, Node.js, PostgreSQL, Strapi, Python, and more. These experiences have honed my skills and expertise in delivering innovative solutions in the ever-evolving tech landscape."
+              ghLink="https://github.com/ancjainil/Aarogram_new"
             />
           </Col>
 
@@ -47,10 +46,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              title="Text Summarization for Gujarati language"
+              description="This is a research project which was done during my bachelor's to learn some concepts like vector embeddings and transformers"
+              ghLink="https://github.com/ancjainil/Text_Summa"
             />
           </Col>
 
@@ -58,7 +56,7 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
+              title="Spendee"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
