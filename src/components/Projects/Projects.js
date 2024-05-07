@@ -44,7 +44,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              // imgPath={editor}
               isBlog={false}
               title="Text Summarization for Gujarati language"
               description="This is a research project which was done during my bachelor's to learn some concepts like vector embeddings and transformers"
@@ -54,7 +54,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              // imgPath={leaf}
               isBlog={false}
               title="Spendee"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
